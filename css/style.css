@@ -1,0 +1,119 @@
+#header {
+    text-align: center;
+}
+
+.homepage {
+    min-height: 100vh;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    background-image: -webkit-linear-gradient(to bottom right, #481631, #1B6268);
+    background-image: -moz-linear-gradient(to bottom right, #481631, #1B6268);
+    background-image: -ms-linear-gradient(to bottom right, #481631, #1B6268);
+    background-image: -o-linear-gradient(to bottom right, #481631, #1B6268);
+    background-image: linear-gradient(to bottom right, #481631, #1B6268);
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+background-size: 100% auto ;
+    color: #000;
+    font-family: "Palatino Linotype", serif;
+}
+
+
+.blog {
+    padding: 20px; 
+    margin: 20px auto; 
+    background: #fff; 
+    width: 85%; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -khtml-border-radius: 5px; 
+    -o-border-radius: 5px; 
+    border-radius: 5px;}
+
+hr { border-top: 1px dashed #f9deda; }
+
+m{
+    font-family: 'Handlee', cursive; letter-spacing: 4px; 
+}
+
+mu{
+    font-family: 'Handlee', cursive; 
+}
+
+img{
+  max-width:100%;
+}
+
+
+::-moz-selection { background: #354873; color: #fff; }
+::selection { background: #354873; color: #fff; }
+
+.link a { font-family: 'Itim'; color: #96A2C3; text-decoration: none;}
+
+.link a:hover { color: #96A2C3; text-shadow: 0px 0px 3px #8D8CA7; text-decoration: none; background: none; -webkit-transition:all 0.3s;-moz-transition:all 0.3s;}
+
+
+
+a {
+    color: #96A2C3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ecebf5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.input_style {
+    background-color: #000049;
+    color: #d6bff7;
+    font-family: "Courier New", serif;
+    width: 800px;
+    max-width: 800px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s;
+    padding-top: 40%;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Itim';
+    color: #ABA69E;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #575757;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+/* For smaller screens, with height < 450px */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
